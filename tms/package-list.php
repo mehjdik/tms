@@ -43,16 +43,6 @@ include('includes/config.php');
 		<div class="room-bottom">
 			<h3>Package List</h3>
 
-					
-<?php $sql = "SELECT * from tbltourpackages";
-$query = $dbh->prepare($sql);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-$cnt=1;
-if($query->rowCount() > 0)
-{
-foreach($results as $result)
-{	?>
 			<div class="rom-btm">
 				<div class="col-md-3 room-left wow fadeInLeft animated" data-wow-delay=".5s">
 					<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>" class="img-responsive" alt="">
@@ -71,7 +61,7 @@ foreach($results as $result)
 				<div class="clearfix"></div>
 			</div>
 
-<?php }} ?>
+
 			
 		
 		
