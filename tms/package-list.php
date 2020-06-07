@@ -58,11 +58,11 @@ foreach($results as $result)
 					<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>" class="img-responsive" alt="">
 				</div>
 				<div class="col-md-6 room-midle wow fadeInUp animated" data-wow-delay=".5s">
-					<h4>Package Name: <?php echo htmlentities($result->PackageName);?></h4>
-					<h6>Package Type : <?php echo htmlentities($result->PackageType);?></h6>
-					<h6>Hotel : <?php echo htmlentities($result->PackageHotel);?></h6>
-					<p><b>Location :</b> <?php echo htmlentities($result->PackageLocation);?></p>
-					<p><b>Features</b> <?php echo htmlentities($result->PackageFetures);?></p>
+					<h4>Package Name: Manali Trip</h4>
+					<h6>Package Type: General</h6>
+					<h6>Hotel: Snow Valley Resorts, Manali</h6>
+					<p><b>Location: </b> Log Hut Area, Manali, Himachal Pradesh</p>
+					<p><b>Features: </b>Air Conditioning ,Balcony / Terrace,Cable / Satellite / Pay TV available,Ceiling Fan,Hairdryer</p>
 				</div>
 				<div class="col-md-3 room-right wow fadeInRight animated" data-wow-delay=".5s">
 					<h5>INR <?php echo htmlentities($result->PackagePrice);?><h6>per person</h6></h5>
