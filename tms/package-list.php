@@ -45,7 +45,7 @@ include('includes/config.php');
 
 			<div class="rom-btm">
 				<div class="col-md-3 room-left wow fadeInLeft animated" data-wow-delay=".5s">
-					<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>" class="img-responsive" alt="">
+					<img src="admin/pacakgeimages/Screenshot(10)" class="img-responsive" alt="">
 				</div>
 				<div class="col-md-6 room-midle wow fadeInUp animated" data-wow-delay=".5s">
 					<h4>Package Name: Manali Trip</h4>
