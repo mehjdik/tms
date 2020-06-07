@@ -45,7 +45,7 @@ include('includes/config.php');
 
 			<div class="rom-btm">
 				<div class="col-md-3 room-left wow fadeInLeft animated" data-wow-delay=".5s">
-					<img src="admin/pacakgeimages/Screenshot(10).png" class="img-responsive" alt="">
+					<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.toiimg.com%2Fphoto%2F35951634%2F.jpg&imgrefurl=https%3A%2F%2Ftimesofindia.indiatimes.com%2Ftravel%2Fmanali%2Fsnow-valley-resort%2Fps35951566.cms&tbnid=CtIj4cQvIO7M8M&vet=12ahUKEwjv-YqpjPDpAhVGiEsFHZEjBP8QMygJegUIARDLAQ..i&docid=6sO_jZRdWKyYvM&w=1000&h=667&q=snow%20valley%20resort%20manali%20images&ved=2ahUKEwjv-YqpjPDpAhVGiEsFHZEjBP8QMygJegUIARDLAQ" class="img-responsive" alt="">
 				</div>
 				<div class="col-md-6 room-midle wow fadeInUp animated" data-wow-delay=".5s">
 					<h4>Package Name: Manali Trip</h4>
