@@ -93,30 +93,19 @@ $error="Something went wrong. Please try again";
 	<div class="container">	
 		  <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
 				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
-<?php 
-$pid=intval($_GET['pkgid']);
-$sql = "SELECT * from tbltourpackages where PackageId=:pid";
-$query = $dbh->prepare($sql);
-$query -> bindParam(':pid', $pid, PDO::PARAM_STR);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-$cnt=1;
-if($query->rowCount() > 0)
-{
-foreach($results as $result)
-{	?>
+
 
 <form name="book" method="post">
 		<div class="selectroom_top">
 			<div class="col-md-4 selectroom_left wow fadeInLeft animated" data-wow-delay=".5s">
-				<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>" class="img-responsive" alt="">
+				<img src="admin/pacakgeimages/Screenshot (10).png" class="img-responsive" alt="">
 			</div>
 			<div class="col-md-8 selectroom_right wow fadeInRight animated" data-wow-delay=".5s">
-				<h2><?php echo htmlentities($result->PackageName);?></h2>
-				<p class="dow">#PKG-<?php echo htmlentities($result->PackageId);?></p>
-				<p><b>Package Type :</b> <?php echo htmlentities($result->PackageType);?></p>
-				<p><b>Package Location :</b> <?php echo htmlentities($result->PackageLocation);?></p>
-					<p><b>Features</b> <?php echo htmlentities($result->PackageFetures);?></p>
+				<h2>Manali Trip</h2>
+				<p class="dow">#PKG-1</p>
+				<p><b>Package Type:</b> General</p>
+				<p><b>Package Location:</b> Log Hut Area, Manali, Himachal Pradesh</p>
+					<p><b>Features:</b> Air Conditioning ,Balcony / Terrace,Cable / Satellite / Pay TV available,Ceiling Fan,Hairdryer</p>
 					<div class="ban-bottom">
 				<div class="bnr-right">
 				<label class="inputLabel">From</label>
@@ -140,12 +129,13 @@ foreach($results as $result)
 
 				<div class="grand">
 					<p  onclick="myCalculation()">Grand Total</p>
-					<h3 id="total" type="text" > <?php echo htmlentities($result->PackagePrice);?></h3>
+					<h3 id="total" type="text" > 2578</h3>
 				</div>
 			</div>
-			<script>var pee="<?php echo htmlentities($result->PackagePrice);?>"</script>
+			<script>var pee=2578</script>
 		<h3>Package Details</h3>
-				<p style="padding-top: 1%"><?php echo htmlentities($result->PackageDetails);?> </p>	
+				<p style="padding-top: 1%">Relaxed mountain resort offering free breakfast, 
+					plus a bar, a rooftop terrace & a restaurant. </p>	
 				<div class="clearfix"></div>
 		</div>
 		<div class="selectroom_top">
