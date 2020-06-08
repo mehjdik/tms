@@ -48,4 +48,4 @@
 </head>
 <body>
 <?php include('includes/header.php');?>
-  </head>
+  </html>
