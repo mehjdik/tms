@@ -44,7 +44,8 @@ include('includes/config.php');
 			<h3>Package List</h3>
 
 			<div class="rom-btm">
-				
+				<div class="col-md-3 room-left wow fadeInLeft animated" data-wow-delay=".5s">
+					<img src="Screenshot(10).png" class="img-responsive" alt="manali">
 				<div class="col-md-6 room-midle wow fadeInUp animated" data-wow-delay=".5s">
 					<h4>Package Name: Manali Trip</h4>
 					<h6>Package Type: General</h6>
