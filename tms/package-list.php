@@ -55,8 +55,8 @@ include('includes/config.php');
 					<p><b>Features: </b>Air Conditioning ,Balcony / Terrace,Cable / Satellite / Pay TV available,Ceiling Fan,Hairdryer</p>
 				</div>
 				<div class="col-md-3 room-right wow fadeInRight animated" data-wow-delay=".5s">
-					<h5>INR <?php echo htmlentities($result->PackagePrice);?><h6>per person</h6></h5>
-					<a href="package-details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="view">Details</a>
+					<h5>INR 2578<h6>per person</h6></h5>
+					<a href="package-details-snowvalley.php" class="view">Details</a>
 				</div>
 				<div class="clearfix"></div>
 			</div>
