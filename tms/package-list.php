@@ -60,6 +60,62 @@ include('includes/config.php');
 				</div>
 				<div class="clearfix"></div>
 			</div>
+			
+			
+			<div class="rom-btm">
+				<div class="col-md-3 room-left wow fadeInLeft animated" data-wow-delay=".5s">
+					<img src="admin/pacakgeimages/Screenshot (11).png" class="img-responsive" alt="manali">
+					</div>
+				<div class="col-md-6 room-midle wow fadeInUp animated" data-wow-delay=".5s">
+					<h4>Package Name: Manali Trip</h4>
+					<h6>Package Type: General</h6>
+					<h6>Hotel: Club Mahindra White Meadows</h6>
+					<p><b>Location: </b> Prini village, Manali Naggar Highway, Kullu District, Manali, Himachal Pradesh</p>
+					<p><b>Features: </b>Air Conditioning, Heater , Balcony, TV available,Ceiling Fan,Hairdryer</p>
+				</div>
+				<div class="col-md-3 room-right wow fadeInRight animated" data-wow-delay=".5s">
+					<h5>INR 3456<h6>per person</h6></h5>
+					<a href="package-details-snowvalley.php" class="view">Details</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			
+		
+			<div class="rom-btm">
+				<div class="col-md-3 room-left wow fadeInLeft animated" data-wow-delay=".5s">
+					<img src="admin/pacakgeimages/images.jpg" class="img-responsive" alt="manali">
+					</div>
+				<div class="col-md-6 room-midle wow fadeInUp animated" data-wow-delay=".5s">
+					<h4>Package Name: Kerala</h4>
+					<h6>Package Type: Familty and Couple</h6>
+					<h6>Hotel: Trident Hotel Cochin</h6>
+					<p><b>Location: </b> Bristow Rd, Willingdon Island, Kochi, Kerala 682003</p>
+					<p><b>Features: </b>Air Conditioning ,Terrace,Cable/ Pay TV available,Ceiling Fan, King Size Bed</p>
+				</div>
+				<div class="col-md-3 room-right wow fadeInRight animated" data-wow-delay=".5s">
+					<h5>INR 2000<h6>per person</h6></h5>
+					<a href="package-details-snowvalley.php" class="view">Details</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			
+			<div class="rom-btm">
+				<div class="col-md-3 room-left wow fadeInLeft animated" data-wow-delay=".5s">
+					<img src="admin/pacakgeimages/Screenshot (30).png" class="img-responsive" alt="manali">
+					</div>
+				<div class="col-md-6 room-midle wow fadeInUp animated" data-wow-delay=".5s">
+					<h4>Package Name: Kerala Trip</h4>
+					<h6>Package Type: Couple</h6>
+					<h6>Hotel: Taj Bekal Resort & Spa, Kerala</h6>
+					<p><b>Location: </b> Kappil Beach, Thekkekara, Bekal, Kerala 671319</p>
+					<p><b>Features: </b>Balcony / Terrace,Cable / Pay TV available,Ceiling Fan, Hair Spa, Massages</p>
+				</div>
+				<div class="col-md-3 room-right wow fadeInRight animated" data-wow-delay=".5s">
+					<h5>INR 3000<h6>per person</h6></h5>
+					<a href="package-details-snowvalley.php" class="view">Details</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
 
 
 			
